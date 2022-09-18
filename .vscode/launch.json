@@ -1,0 +1,16 @@
+{
+  // Use o IntelliSense para saber mais sobre os atributos possíveis.
+  // Focalizar para exibir as descrições dos atributos existentes.
+  // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug node",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/lesson-01.js",
+      "runtimeExecutable": "/Users/Administrator/.nvm/versions/node/v16.16.0/bin/node"
+    }
+  ]
+}
