@@ -1,5 +1,5 @@
 // Setup
-let lastNameLength = 3;
+let lastNameLength;
 const lastName = "Lovelace";
 
 //Atribui à variavel lastastNameLength o tamanho da variável LastName usando a propriedade .length o resultado será 8
