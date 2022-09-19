@@ -18,3 +18,14 @@ const wordBlanks =
 // o resultado impresso é= A big dog ran in front of my car quickly.
 
 console.log(wordBlanks);
+
+// é possivel aninhar mais de uma variavel dentro de uma Array (matriz)
+
+const myArray = ["love", 4];
+
+// pode-se, inclusive, aninhar uma(ou varias) Array dentro de uma Array:
+
+const myArrays = [
+  ["I", "am"],
+  [4, "you"],
+];
