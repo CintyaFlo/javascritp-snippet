@@ -25,3 +25,7 @@ const lastLetter = firstName[firstName.length - 1];
 // O valor impresso será "a"
 
 console.log(lastLetter);
+
+const thirdToLastLetter = firstName[firstName.length - 3];
+
+console.log(thirdToLastLetter);
