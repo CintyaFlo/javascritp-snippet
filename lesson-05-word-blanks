@@ -1,9 +1,10 @@
+// atribuindo as variaveis para somar a fim de criar uma sentença
 const myNoun = "dog";
 const myAdjective = "big";
 const myVerb = "ran";
 const myAdverb = "quickly";
 
-// Only change code below this line
+// a soma de variaveis com texto permite a escrita da frase
 const wordBlanks =
   "A " +
   myAdjective +
@@ -13,7 +14,7 @@ const wordBlanks =
   myVerb +
   " in front of my car " +
   myAdverb +
-  "."; // Change this line
-// Only change code above this line
+  ".";
+// o resultado impresso é= A big dog ran in front of my car quickly.
 
 console.log(wordBlanks);
