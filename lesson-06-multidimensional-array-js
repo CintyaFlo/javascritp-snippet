@@ -28,3 +28,9 @@ const arr3 = [
 
 // o resultado será [ [ 'John', 23 ] ], isto é, toda array que oculpa o ultimo index é removido da array original
 const removedFromMyArray = arr3.pop();
+
+//remover o primeiro elemento de uma Array funciona igual ao pop, mas usa o Shift function
+const firstonedown = arr3.shift();
+
+//como usamos o .pop() e o .shif() nossa array nao tera nenhum elemento, aparece vazia []
+console.log(arr3);
