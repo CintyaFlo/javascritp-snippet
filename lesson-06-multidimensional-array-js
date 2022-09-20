@@ -19,3 +19,12 @@ const array1 = [
 array1.push(["dog", 3]);
 
 console.log(array1);
+
+// è possivel remover o ultimo elemento ou dado de uma array usando o .pop()
+const arr3 = [
+  ["John", 23],
+  ["cat", 2],
+];
+
+// o resultado será [ [ 'John', 23 ] ], isto é, toda array que oculpa o ultimo index é removido da array original
+const removedFromMyArray = arr3.pop();
