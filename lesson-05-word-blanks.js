@@ -43,3 +43,11 @@ const myData = myArray[1];
 //o resultado será o primeiro valor da array myArray = 4 , porque é o segundo elemento da Array
 
 console.log(myData);
+
+//eu posso modificar um elemento de uma Array usando o INDEX mesmo que seja do tipo const
+
+const myArraytobechanged = [15, 16, 26];
+myArraytobechanged[1] = 3;
+
+// o resultado será que o segundo elemento da Array será substituido pelo valor indicado 3
+console.log(myArraytobechanged);
