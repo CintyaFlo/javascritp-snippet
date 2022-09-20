@@ -9,3 +9,13 @@ const myArray = [
 const myData = myArray[2][1];
 
 console.log(myData);
+
+// usando a funçao .push() adiciona dados no final da Array
+const array1 = [
+  ["John", 23],
+  ["cat", 2],
+];
+// o resultado será a inclusao dos elementos no final da array = [ [ 'John', 23 ], [ 'cat', 2 ], [ 'dog', 3 ] ]
+array1.push(["dog", 3]);
+
+console.log(array1);
