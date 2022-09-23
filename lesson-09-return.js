@@ -10,3 +10,13 @@ processed = processArg(7);
 //o numero atribuido para num foi 7 e o resultado da funçao será 2, este resultado será atribuido, tmbem para a variavel processed
 console.log(processArg(7));
 console.log(processed);
+
+let melancia = 18;
+
+function addMelancia() {
+  melancia = melancia + 1;
+}
+
+addMelancia();
+
+console.log(melancia);
