@@ -4,12 +4,17 @@ function functionName() {
 }
 
 functionName();
+functionName();
+functionName();
 
 // pode-se, também, definir uma funçao que aceite x parametros
 function function2Args(a, b) {
   console.log(a + b);
 }
+
 function2Args(3, 5);
+function2Args(1, 5);
+function2Args(3, 1);
 
 // define function
 function sum(a, b) {
@@ -26,10 +31,10 @@ function multiply(a, b, c) {
   return a * b * c;
 }
 
-// declara var e initializa
+// declare define myvar
 let myvar = 2;
 
-//declare var
+// declare var
 let myvar2;
 
 // initialize myvar2
@@ -40,3 +45,20 @@ console.log(sum(1, 2));
 
 // call function sum passing variables
 console.log(divide(myvar2, myvar));
+
+function sumAndDivide(a, b, c, d) {
+  return sum(a, b) - divide(c, d);
+}
+
+console.log(sumAndDivide(4, 2, 8, 4));
+
+let amorLindo;
+let euZinha = 5;
+function Subtraction(x, y) {
+  console.log(x + y);
+  return x - y;
+}
+amorLindo = 2;
+
+let verReturn = Subtraction(amorLindo, euZinha);
+console.log(verReturn);
