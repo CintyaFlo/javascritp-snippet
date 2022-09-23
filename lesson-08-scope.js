@@ -17,7 +17,7 @@ divide(5);
 // function modifying global variable
 function funglobal() {
   console.log(globalVar);
-  globalVar = 12;
+  globalVar = 10;
 }
 funglobal();
 funglobal();
@@ -36,7 +36,7 @@ myTest(); //vai retornorar a string foo porque esta dentro da funçao
 const outerWear = "T-Shirt";
 
 function myOutfit() {
-  let outerWear = "sweater"; //A funçao vai executar as instruçoes usando a variavel conforme estiver declarada dentro da função
+  const outerWear = "sweater"; //A funçao vai executar as instruçoes usando a variavel conforme estiver declarada dentro da função
 
   return outerWear;
 }
@@ -45,3 +45,17 @@ myOutfit();
 console.log(myOutfit); //resultado: [Function: myOutfit] - Informa que myOutfit é uma funçao;
 console.log(myOutfit()); // resultado: sweater Executa a funçao com o dado da variavel outerWear de escopo local
 console.log(outerWear); // resultado: T-Shirt informa oo valor de outerWear declarado no escolo global, e ignora a de escopo local
+
+var number1 = 1;
+
+function mynumbers() {
+  var number1 = 32;
+  return number1;
+}
+
+let test = globalVar + number1; //perguntar a rob porque está somando o valor de globalvar declarado dentro da funçao na linha 19
+console.log(test);
+
+console.log(number1);
+
+console.log(mynumbers());
