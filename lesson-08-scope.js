@@ -16,8 +16,8 @@ divide(5);
 
 // function modifying global variable
 function funglobal() {
-  console.log(globalVar);
-  globalVar = 10;
+  console.log(VarGlobal);
+  varGlobal = 10;
 }
 funglobal();
 funglobal();
