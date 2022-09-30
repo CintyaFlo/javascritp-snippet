@@ -91,7 +91,7 @@ function sequentialSizes(val) {
 
 sequentialSizes(1);
 
-//CCASES WITH DIFFERET VARIABLE TYPE
+//CASES WITH DIFFERET VARIABLE TYPE
 
 //USING IF ELSE:
 function chainToSwitch(val) {
