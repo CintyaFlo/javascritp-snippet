@@ -29,3 +29,8 @@ console.log(myBag);
 myBag.books = ["Harry Potter", "Power of Now"];
 myBag["brand"] = "Quechua";
 console.log(myBag);
+
+// removing an object property using (.) or []
+delete myBag.brand;
+delete myBag["personal-items"];
+console.log(myBag);
