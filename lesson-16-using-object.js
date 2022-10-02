@@ -18,3 +18,14 @@ let propertyName = "personal-items";
 let numOfPersonalItem = myBag[propertyName];
 
 console.log(propertyName, numOfPersonalItem);
+
+// updating an object property using (.) or []
+myBag["personal-items"] = ["wallet", "phone"];
+myBag.medicine = 3;
+
+console.log(myBag);
+
+// Adding an object property using (.) or []
+myBag.books = ["Harry Potter", "Power of Now"];
+myBag["brand"] = "Quechua";
+console.log(myBag);
