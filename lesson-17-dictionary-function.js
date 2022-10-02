@@ -30,5 +30,3 @@ function createSentenceFrom(words) {
 }
 
 console.log(createSentenceFrom(["latir", "beijar", "pensar"]));
-
-console.log(typeof [].forEach);
