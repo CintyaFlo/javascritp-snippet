@@ -34,3 +34,7 @@ console.log(myBag);
 delete myBag.brand;
 delete myBag["personal-items"];
 console.log(myBag);
+
+// accessing nested obj
+myBag.pocket = { baton: "red" };
+console.log(myBag.pocket.baton);
