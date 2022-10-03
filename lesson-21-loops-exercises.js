@@ -12,10 +12,10 @@ console.log(myArray1); // return one array : [7, 6, 5, 4, 3, 2, 1, 0]
 // For - Loop
 
 /*For loops are declared with three optional expressions separated by semicolons:
-for (a; b; c), 
-where a is the initialization statement, b
- is the condition statement, 
- and c is the final expression.
+for (a; b; c), where 
+a is the initialization statement, 
+b is the condition statement, and 
+c is the final expression.
 */
 
 const myArray2 = [];
@@ -52,3 +52,13 @@ for (let i = 9; i >= -1; i -= 2) {
   ourArray1.push(i);
 }
 console.log(ourArray1); // [ 9, 7, 5, 3, 1, -1 ]
+
+//Iterate Through an Array with a For Loop
+
+const myArr = [2, 3, 4, 5, 6];
+let total = 0;
+for (let i = 0; i < myArr.length; i++) {
+  total += myArr[i];
+}
+// Only change code below this line
+console.log(total);
