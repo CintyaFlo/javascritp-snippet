@@ -48,7 +48,7 @@ console.log(ourArray); //[ 0, 2, 4, 6, 8 ]
 
 const ourArray1 = [];
 
-for (let i = 10; i > -4; i -= 2) {
+for (let i = 9; i >= -1; i -= 2) {
   ourArray1.push(i);
 }
-console.log(ourArray1); // [10, 8,  6, 4, 2, 0, -2]
+console.log(ourArray1); // [ 9, 7, 5, 3, 1, -1 ]
