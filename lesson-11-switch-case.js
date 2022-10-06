@@ -67,13 +67,13 @@ console.log(switchOfStuff(1)); //vai retornar "stuff" porque nao se encaixa em n
 
 function sequentialSizes(val) {
   let answer = "";
-  // Only change code below this line
+  // It's possible to use the same answer to more cases
   switch (val) {
     case 1:
     case 2:
     case 3:
       answer = "Low";
-      break;
+      break; //its important to put the break after any return
     case 4:
     case 5:
     case 6:
@@ -89,7 +89,7 @@ function sequentialSizes(val) {
   return answer;
 }
 
-sequentialSizes(1);
+sequentialSizes(7);
 
 //CASES WITH DIFFERET VARIABLE TYPE
 
