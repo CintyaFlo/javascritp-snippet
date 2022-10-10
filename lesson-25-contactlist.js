@@ -55,23 +55,22 @@ for(let i = 0; i < contacts.length; i++) {
 */
 
 // v3
-/*
+
 function findJanePhone() {
-    for(let i = 0; i < contacts.length; i++) {
-        let contact = contacts[i];
-        console.log(contact.name, contact.lastname);
-        if(contact.name === 'Jane') {
-            console.log('Found Jane');
-            if(contact.hasOwnProperty('phone')) {
-                return contact['phone']
-            }
-        }
+  for (let i = 0; i < contacts.length; i++) {
+    let contact = contacts[i];
+    console.log(contact.name, contact.lastname);
+    if (contact.name === "Jane") {
+      console.log("Found Jane");
+      if (contact.hasOwnProperty("phone")) {
+        return contact["phone"];
+      }
     }
+  }
 }
 
 const janePhone = findJanePhone();
-console.log(janePhone)
-*/
+console.log(janePhone);
 
 // v4
 /*
@@ -136,34 +135,6 @@ function findPropOf(name, prop) {
 
 //Solution in FCC
 
-// Setup
-const contacts = [
-  {
-    firstName: "Akira",
-    lastName: "Laine",
-    number: "0543236543",
-    likes: ["Pizza", "Coding", "Brownie Points"],
-  },
-  {
-    firstName: "Harry",
-    lastName: "Potter",
-    number: "0994372684",
-    likes: ["Hogwarts", "Magic", "Hagrid"],
-  },
-  {
-    firstName: "Sherlock",
-    lastName: "Holmes",
-    number: "0487345643",
-    likes: ["Intriguing Cases", "Violin"],
-  },
-  {
-    firstName: "Kristian",
-    lastName: "Vos",
-    number: "unknown",
-    likes: ["JavaScript", "Gaming", "Foxes"],
-  },
-];
-
 function lookUpProfile(name, prop) {
   // Only change code below this line
   for (let i = 0; i < contacts.length; i++) {
@@ -180,4 +151,4 @@ function lookUpProfile(name, prop) {
   // Only change code above this line
 }
 
-lookUpProfile("Akira", "likes");
+console.log(lookUpProfile("Akira", "likes"));
