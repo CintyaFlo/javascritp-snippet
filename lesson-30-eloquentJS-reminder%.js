@@ -4,7 +4,7 @@ function cleanFizzBuzz(n) {
     if (i % 3 != 0) {
       result = i % 3;
     } else if (i % 5 != 0) {
-      result = i % 5;
+      result = (i % 5) + " é de 5";
     }
     console.log(i, result);
   }
