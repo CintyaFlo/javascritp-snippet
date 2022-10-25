@@ -8,16 +8,20 @@ console.log(s);
 // Change the array to [2, 5, 7]:
 const m = [5, 7, 2];
 //s = [1, 2, 3];
-m.pop();
-m.unshift(2);
+let i = m.pop();
+m.unshift(i);
 // Another way to do it is --- s.unshift(s.pop()); ----
 console.log(m);
+
+/* the example below will result in an error because the freeze jus
+don't alow any changes.
 
 let obj = {
   name: "FreeCodeCamp",
   review: "Awesome",
 };
 Object.freeze(obj);
-obj.review = "bad";
-obj.newProp = "Test";
+obj.review: "bad";
+obj.newProp:"Test";
 console.log(obj);
+*/
