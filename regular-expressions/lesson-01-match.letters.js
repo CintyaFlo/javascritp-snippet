@@ -1,3 +1,5 @@
+//COMBINE LETTERS
+
 let catStr = "cat";
 let batStr = "bat";
 let matStr = "mat";
