@@ -17,8 +17,8 @@ let result = userCheck.test(username);
 console.log(result);
 
 /* here i used a series of comands to set the possibilities 
-and impossibilities to my UserNames:
-^ it will be start with [a-z] -> one alphabetic letter, than must have or
+and impossibilities to my UserName:
+^ it will be start with [a-z] -> one alphabetic letter, than must be followed by either
 
 (([a-z]+  -> one or more alphabetic letter and 
 \d*) -> zero or more digits (numbers)
