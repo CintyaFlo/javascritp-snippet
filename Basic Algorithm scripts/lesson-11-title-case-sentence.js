@@ -11,7 +11,7 @@ function titleCase(str) {
   return words.join(" ");
 }
 
-console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("I'm a litLle tea pot"));
 
 // SPACE COMPLEXITY ZERO - MORE EFFICIENT
 
